@@ -29,7 +29,4 @@
         border-bottom-right-radius: 25px;
         
     }
-    .progress-bar>span{
-        color: aliceblue;
-    }
 </style>
