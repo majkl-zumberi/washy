@@ -297,11 +297,11 @@ var app = (function () {
 
     			attr(div0, "class", div0_class_value = "" + (null_to_empty(/*progress*/ ctx[0] === 100
     			? " progress-bar progress-bar-full"
-    			: "progress-bar") + " svelte-1u4y4rd"));
+    			: "progress-bar") + " svelte-1gx24j4"));
 
     			set_style(div0, "width", /*progress*/ ctx[0] + "%");
     			attr(div1, "bp", "offset-5@md 4@md 12@sm");
-    			attr(div1, "class", "progress-container svelte-1u4y4rd");
+    			attr(div1, "class", "progress-container svelte-1gx24j4");
     			attr(div2, "bp", "grid");
     		},
     		m(target, anchor) {
@@ -312,7 +312,7 @@ var app = (function () {
     		p(ctx, [dirty]) {
     			if (dirty & /*progress*/ 1 && div0_class_value !== (div0_class_value = "" + (null_to_empty(/*progress*/ ctx[0] === 100
     			? " progress-bar progress-bar-full"
-    			: "progress-bar") + " svelte-1u4y4rd"))) {
+    			: "progress-bar") + " svelte-1gx24j4"))) {
     				attr(div0, "class", div0_class_value);
     			}
 
