@@ -43,7 +43,7 @@ export default {
 				dev: !production
 			}
 		}),
-		css({output: 'public/build/extra.css'}),
+		css({output: 'extra.css'}),
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
 		css({ output: 'bundle.css' }),
